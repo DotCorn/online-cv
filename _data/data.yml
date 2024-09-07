@@ -3,15 +3,13 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Nicholas Greene
-    tagline: >
-    CompTIA A+ Certified
-    Supporting Nonprofits with Business and IT Management Solutions  
+    tagline: Supporting Nonprofits with Business and IT Management Solutions
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -50,14 +48,16 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Ethics of Technology
+        #  link:
+        
+        - item: Citizen Science
 
-        - item: Snowboarding
-          link:
+        - item: Sustainable Agriculture
 
-        - item: Cooking
-          link:
+        - item: Indigenous Land Management
+
+        - item: Artisan Distillation
 
 career-profile:
     title: Career Profile
@@ -69,7 +69,7 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    title: Education
+    title: Education and Certification
     info:
       - degree: MSc in Computer Science
         university: University of London
